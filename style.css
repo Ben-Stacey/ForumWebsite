@@ -40,6 +40,10 @@ h1{
     margin : 4px;
 }
 
+.subforum-description *{
+    margin-block: 0px;
+}
+
 .subforum-row{
     display: grid;
     grid-template-columns: 7% 60% 13% 20%;
