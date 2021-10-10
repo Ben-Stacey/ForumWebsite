@@ -153,6 +153,16 @@ header{
     color: #fff;
 }
 
+.nav-item a{
+    float: right;
+    display: block;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 20px;
+    padding: 1px;
+    color: #fff;
+}
+
 .nav-item a:hover{
     background-color: rgb(0,0,0,0.1);
 }
@@ -179,4 +189,29 @@ header{
     font-size: 60px;
     display: inline-block;
     font-family: sans-serif;
+}
+
+/* Navigation for smartphones*/
+@media screen and (max-width: 460px){
+    .navigation{
+        max-height: auto;
+    } 
+
+    .nav-item a{
+        float: left;
+        display: inline;
+        text-align: center;
+        margin-inline: 3px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    
+    .close-icon i{
+        font-size: 60px;
+    }
+    
+    .brand{
+        font-size: 20px;
+    }
 }
