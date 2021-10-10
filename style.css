@@ -79,6 +79,17 @@ h1{
         grid-template-rows: 65% 35%;
     }
 
+    .subforum-stats{
+        font-size: 12px;
+    }
+
+    .subforum-devider{
+        display: block;
+        border: 0px;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(190, 190, 190, 0), gba(255, 255, 255, 0.75), gba(190, 190, 190, 0));
+    }
+
 }
 
 /*for the tablets and ipads*/
