@@ -66,6 +66,10 @@ h1{
     font-size: 45px;
 }
 
+.subforum-devider{
+   display: none; 
+}
+
 /*For the smartphones*/
 @media screen and (max-width: 460px){
     .container{
